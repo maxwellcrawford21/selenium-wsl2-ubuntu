@@ -23,7 +23,7 @@ webdriver_service = Service(f"{homedir}/chromedriver-linux64/chromedriver")
 browser = webdriver.Chrome(service=webdriver_service, options=chrome_options)
 
 # Get page
-browser.get("https://cloudbytes.dev")
+browser.get("https://ifconfig.me")
 
 # Extract description from page and print
 description = browser.find_element(By.NAME, "description").get_attribute("content")
