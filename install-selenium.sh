@@ -7,7 +7,7 @@ echo "Update the repository and any packages..."
 apt update && apt upgrade -y
 
 echo "Install prerequisite system packages..."
-apt install wget curl unzip jq python3 python3-pip unzip nano net-tools build-essential cmake binutils -y
+apt install wget curl unzip jq python3 python3-pip unzip nano net-tools build-essential cmake binutils python3-venv -y
 
 # Set metadata for Google Chrome repository...
 meta_data=$(curl 'https://googlechromelabs.github.io/chrome-for-testing/'\
