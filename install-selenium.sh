@@ -45,7 +45,7 @@ rm chrome-linux64.zip  chromedriver-linux64.zip
 
 popd
 
-#python3 -m venv .venv && /
-#source .venv/bin/activate
+python3 -m venv .venv && /
+source .venv/bin/activate
 
-pip3 install selenium
+pip install selenium
